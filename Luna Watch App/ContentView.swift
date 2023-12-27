@@ -27,36 +27,46 @@ struct Config {
 var openAI = SwiftOpenAI(apiKey: Config.openAIKey)
 
 struct ContentView: View {
-    @State private var userInput: String = ""
+    @State private var request: String = ""
     @State private var response: String = ""
+
+    @State private var messages: [MessageChatGPT]
+
+    init() {
+        self.messages = [
+            MessageChatGPT(text: "You are a helpful assistant.", role: .system),
+            MessageChatGPT(text: "Say hi", role: .user)
+        ]
+    }
+    
+    let params = ChatCompletionsOptionalParameters(temperature: 0.7, maxTokens: 50)
+    
     var body: some View {
         VStack {
-            TextField("Enter your message", text: $userInput)
+            TextField("Enter your message", text: $request)
                 .padding()
             Text(response)
                 .padding()
             
-            Button("Send Message") {
-                sendMessage()
+            Button("Ask anything") {
+                Task {
+                    do {
+                        let chatCompletions = try await openAI.createChatCompletions(model: .gpt3_5(.turbo), messages: messages, optionalParameters: params)
+                        // response = chatCompletions?.choices.message.content as? String
+                        print(chatCompletions?.choices)
+                    } catch {
+                        print("Error: \(error)")
+                    }
+                }
             }
+            
         }
         .padding()
     }
 }
 
-func sendMessage() {
-    Task {
-        do {
-            for try await newMessage in try await openAI.createChatCompletionsStream(model: .gpt3_5(.turbo),
-                                                                                     messages: [.init(text: "Say hello!", role: .user)],
-                                                                                     optionalParameters: .init(stream: true)) {
-                            response = newMessage.replies.first?.content ?? "No response :("
-                            print("New Message Received: \(newMessage) ")
-                        }
-                    } catch {
-                        print(error)
-                    }
-                }
+func askAI() {
+    
 }
 
 #Preview {
