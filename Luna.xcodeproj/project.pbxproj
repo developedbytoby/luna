@@ -15,6 +15,8 @@
 		DAFCA2CB2B3BB7E9004E5F60 /* Luna_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCA2CA2B3BB7E9004E5F60 /* Luna_Watch_AppTests.swift */; };
 		DAFCA2D52B3BB7E9004E5F60 /* Luna_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCA2D42B3BB7E9004E5F60 /* Luna_Watch_AppUITests.swift */; };
 		DAFCA2D72B3BB7E9004E5F60 /* Luna_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCA2D62B3BB7E9004E5F60 /* Luna_Watch_AppUITestsLaunchTests.swift */; };
+		DAFCA2E92B3BB98E004E5F60 /* SwiftOpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = DAFCA2E82B3BB98E004E5F60 /* SwiftOpenAI */; };
+		DAFCA2ED2B3BBA36004E5F60 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAFCA2EC2B3BBA36004E5F60 /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,7 @@
 		DAFCA2D02B3BB7E9004E5F60 /* Luna Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Luna Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFCA2D42B3BB7E9004E5F60 /* Luna_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luna_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		DAFCA2D62B3BB7E9004E5F60 /* Luna_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luna_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAFCA2EC2B3BBA36004E5F60 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFCA2E92B3BB98E004E5F60 /* SwiftOpenAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +101,7 @@
 		DAFCA2A72B3BB7E7004E5F60 = {
 			isa = PBXGroup;
 			children = (
+				DAFCA2EC2B3BBA36004E5F60 /* Config.plist */,
 				DAFCA2B82B3BB7E8004E5F60 /* Luna Watch App */,
 				DAFCA2C92B3BB7E9004E5F60 /* Luna Watch AppTests */,
 				DAFCA2D32B3BB7E9004E5F60 /* Luna Watch AppUITests */,
@@ -184,6 +189,9 @@
 			dependencies = (
 			);
 			name = "Luna Watch App";
+			packageProductDependencies = (
+				DAFCA2E82B3BB98E004E5F60 /* SwiftOpenAI */,
+			);
 			productName = "Luna Watch App";
 			productReference = DAFCA2B42B3BB7E8004E5F60 /* Luna Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -259,6 +267,9 @@
 				Base,
 			);
 			mainGroup = DAFCA2A72B3BB7E7004E5F60;
+			packageReferences = (
+				DAFCA2E72B3BB98E004E5F60 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */,
+			);
 			productRefGroup = DAFCA2AF2B3BB7E8004E5F60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -284,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAFCA2C12B3BB7E8004E5F60 /* Preview Assets.xcassets in Resources */,
+				DAFCA2ED2B3BBA36004E5F60 /* Config.plist in Resources */,
 				DAFCA2BE2B3BB7E8004E5F60 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -685,6 +697,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAFCA2E72B3BB98E004E5F60 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftBeta/SwiftOpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAFCA2E82B3BB98E004E5F60 /* SwiftOpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAFCA2E72B3BB98E004E5F60 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */;
+			productName = SwiftOpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DAFCA2A82B3BB7E7004E5F60 /* Project object */;
 }
