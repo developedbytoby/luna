@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAFCA2B52B3BB7E8004E5F60 /* Luna Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DAFCA2B42B3BB7E8004E5F60 /* Luna Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DAFCA2BA2B3BB7E8004E5F60 /* LunaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCA2B92B3BB7E8004E5F60 /* LunaApp.swift */; };
+		DAFCA2BC2B3BB7E8004E5F60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCA2BB2B3BB7E8004E5F60 /* ContentView.swift */; };
+		DAFCA2BE2B3BB7E8004E5F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAFCA2BD2B3BB7E8004E5F60 /* Assets.xcassets */; };
+		DAFCA2C12B3BB7E8004E5F60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAFCA2C02B3BB7E8004E5F60 /* Preview Assets.xcassets */; };
+		DAFCA2CB2B3BB7E9004E5F60 /* Luna_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCA2CA2B3BB7E9004E5F60 /* Luna_Watch_AppTests.swift */; };
+		DAFCA2D52B3BB7E9004E5F60 /* Luna_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCA2D42B3BB7E9004E5F60 /* Luna_Watch_AppUITests.swift */; };
+		DAFCA2D72B3BB7E9004E5F60 /* Luna_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFCA2D62B3BB7E9004E5F60 /* Luna_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAFCA2B62B3BB7E8004E5F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFCA2A82B3BB7E7004E5F60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFCA2B32B3BB7E8004E5F60;
+			remoteInfo = "Luna Watch App";
+		};
+		DAFCA2C72B3BB7E9004E5F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFCA2A82B3BB7E7004E5F60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFCA2B32B3BB7E8004E5F60;
+			remoteInfo = "Luna Watch App";
+		};
+		DAFCA2D12B3BB7E9004E5F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFCA2A82B3BB7E7004E5F60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFCA2B32B3BB7E8004E5F60;
+			remoteInfo = "Luna Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAFCA2DD2B3BB7E9004E5F60 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DAFCA2B52B3BB7E8004E5F60 /* Luna Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DAFCA2AE2B3BB7E8004E5F60 /* Luna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFCA2B42B3BB7E8004E5F60 /* Luna Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Luna Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFCA2B92B3BB7E8004E5F60 /* LunaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunaApp.swift; sourceTree = "<group>"; };
+		DAFCA2BB2B3BB7E8004E5F60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAFCA2BD2B3BB7E8004E5F60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAFCA2C02B3BB7E8004E5F60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAFCA2C62B3BB7E9004E5F60 /* Luna Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Luna Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFCA2CA2B3BB7E9004E5F60 /* Luna_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luna_Watch_AppTests.swift; sourceTree = "<group>"; };
+		DAFCA2D02B3BB7E9004E5F60 /* Luna Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Luna Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFCA2D42B3BB7E9004E5F60 /* Luna_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luna_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		DAFCA2D62B3BB7E9004E5F60 /* Luna_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luna_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAFCA2B12B3BB7E8004E5F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFCA2C32B3BB7E9004E5F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFCA2CD2B3BB7E9004E5F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAFCA2A72B3BB7E7004E5F60 = {
+			isa = PBXGroup;
+			children = (
+				DAFCA2B82B3BB7E8004E5F60 /* Luna Watch App */,
+				DAFCA2C92B3BB7E9004E5F60 /* Luna Watch AppTests */,
+				DAFCA2D32B3BB7E9004E5F60 /* Luna Watch AppUITests */,
+				DAFCA2AF2B3BB7E8004E5F60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAFCA2AF2B3BB7E8004E5F60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCA2AE2B3BB7E8004E5F60 /* Luna.app */,
+				DAFCA2B42B3BB7E8004E5F60 /* Luna Watch App.app */,
+				DAFCA2C62B3BB7E9004E5F60 /* Luna Watch AppTests.xctest */,
+				DAFCA2D02B3BB7E9004E5F60 /* Luna Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAFCA2B82B3BB7E8004E5F60 /* Luna Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCA2B92B3BB7E8004E5F60 /* LunaApp.swift */,
+				DAFCA2BB2B3BB7E8004E5F60 /* ContentView.swift */,
+				DAFCA2BD2B3BB7E8004E5F60 /* Assets.xcassets */,
+				DAFCA2BF2B3BB7E8004E5F60 /* Preview Content */,
+			);
+			path = "Luna Watch App";
+			sourceTree = "<group>";
+		};
+		DAFCA2BF2B3BB7E8004E5F60 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCA2C02B3BB7E8004E5F60 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAFCA2C92B3BB7E9004E5F60 /* Luna Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCA2CA2B3BB7E9004E5F60 /* Luna_Watch_AppTests.swift */,
+			);
+			path = "Luna Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DAFCA2D32B3BB7E9004E5F60 /* Luna Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCA2D42B3BB7E9004E5F60 /* Luna_Watch_AppUITests.swift */,
+				DAFCA2D62B3BB7E9004E5F60 /* Luna_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Luna Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAFCA2AD2B3BB7E7004E5F60 /* Luna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFCA2DE2B3BB7E9004E5F60 /* Build configuration list for PBXNativeTarget "Luna" */;
+			buildPhases = (
+				DAFCA2AC2B3BB7E7004E5F60 /* Resources */,
+				DAFCA2DD2B3BB7E9004E5F60 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAFCA2B72B3BB7E8004E5F60 /* PBXTargetDependency */,
+			);
+			name = Luna;
+			productName = Luna;
+			productReference = DAFCA2AE2B3BB7E8004E5F60 /* Luna.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DAFCA2B32B3BB7E8004E5F60 /* Luna Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFCA2DA2B3BB7E9004E5F60 /* Build configuration list for PBXNativeTarget "Luna Watch App" */;
+			buildPhases = (
+				DAFCA2B02B3BB7E8004E5F60 /* Sources */,
+				DAFCA2B12B3BB7E8004E5F60 /* Frameworks */,
+				DAFCA2B22B3BB7E8004E5F60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Luna Watch App";
+			productName = "Luna Watch App";
+			productReference = DAFCA2B42B3BB7E8004E5F60 /* Luna Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAFCA2C52B3BB7E9004E5F60 /* Luna Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFCA2E12B3BB7E9004E5F60 /* Build configuration list for PBXNativeTarget "Luna Watch AppTests" */;
+			buildPhases = (
+				DAFCA2C22B3BB7E9004E5F60 /* Sources */,
+				DAFCA2C32B3BB7E9004E5F60 /* Frameworks */,
+				DAFCA2C42B3BB7E9004E5F60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAFCA2C82B3BB7E9004E5F60 /* PBXTargetDependency */,
+			);
+			name = "Luna Watch AppTests";
+			productName = "Luna Watch AppTests";
+			productReference = DAFCA2C62B3BB7E9004E5F60 /* Luna Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAFCA2CF2B3BB7E9004E5F60 /* Luna Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFCA2E42B3BB7E9004E5F60 /* Build configuration list for PBXNativeTarget "Luna Watch AppUITests" */;
+			buildPhases = (
+				DAFCA2CC2B3BB7E9004E5F60 /* Sources */,
+				DAFCA2CD2B3BB7E9004E5F60 /* Frameworks */,
+				DAFCA2CE2B3BB7E9004E5F60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAFCA2D22B3BB7E9004E5F60 /* PBXTargetDependency */,
+			);
+			name = "Luna Watch AppUITests";
+			productName = "Luna Watch AppUITests";
+			productReference = DAFCA2D02B3BB7E9004E5F60 /* Luna Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAFCA2A82B3BB7E7004E5F60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DAFCA2AD2B3BB7E7004E5F60 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					DAFCA2B32B3BB7E8004E5F60 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					DAFCA2C52B3BB7E9004E5F60 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = DAFCA2B32B3BB7E8004E5F60;
+					};
+					DAFCA2CF2B3BB7E9004E5F60 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = DAFCA2B32B3BB7E8004E5F60;
+					};
+				};
+			};
+			buildConfigurationList = DAFCA2AB2B3BB7E7004E5F60 /* Build configuration list for PBXProject "Luna" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAFCA2A72B3BB7E7004E5F60;
+			productRefGroup = DAFCA2AF2B3BB7E8004E5F60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAFCA2AD2B3BB7E7004E5F60 /* Luna */,
+				DAFCA2B32B3BB7E8004E5F60 /* Luna Watch App */,
+				DAFCA2C52B3BB7E9004E5F60 /* Luna Watch AppTests */,
+				DAFCA2CF2B3BB7E9004E5F60 /* Luna Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAFCA2AC2B3BB7E7004E5F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFCA2B22B3BB7E8004E5F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFCA2C12B3BB7E8004E5F60 /* Preview Assets.xcassets in Resources */,
+				DAFCA2BE2B3BB7E8004E5F60 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFCA2C42B3BB7E9004E5F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFCA2CE2B3BB7E9004E5F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAFCA2B02B3BB7E8004E5F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFCA2BC2B3BB7E8004E5F60 /* ContentView.swift in Sources */,
+				DAFCA2BA2B3BB7E8004E5F60 /* LunaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFCA2C22B3BB7E9004E5F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFCA2CB2B3BB7E9004E5F60 /* Luna_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFCA2CC2B3BB7E9004E5F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFCA2D72B3BB7E9004E5F60 /* Luna_Watch_AppUITestsLaunchTests.swift in Sources */,
+				DAFCA2D52B3BB7E9004E5F60 /* Luna_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAFCA2B72B3BB7E8004E5F60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFCA2B32B3BB7E8004E5F60 /* Luna Watch App */;
+			targetProxy = DAFCA2B62B3BB7E8004E5F60 /* PBXContainerItemProxy */;
+		};
+		DAFCA2C82B3BB7E9004E5F60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFCA2B32B3BB7E8004E5F60 /* Luna Watch App */;
+			targetProxy = DAFCA2C72B3BB7E9004E5F60 /* PBXContainerItemProxy */;
+		};
+		DAFCA2D22B3BB7E9004E5F60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFCA2B32B3BB7E8004E5F60 /* Luna Watch App */;
+			targetProxy = DAFCA2D12B3BB7E9004E5F60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAFCA2D82B3BB7E9004E5F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAFCA2D92B3BB7E9004E5F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DAFCA2DB2B3BB7E9004E5F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Luna Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Luna;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.Luna.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DAFCA2DC2B3BB7E9004E5F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Luna Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Luna;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.Luna.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		DAFCA2DF2B3BB7E9004E5F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Luna;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.Luna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAFCA2E02B3BB7E9004E5F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Luna;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.Luna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAFCA2E22B3BB7E9004E5F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luna.Luna-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luna Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Luna Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DAFCA2E32B3BB7E9004E5F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luna.Luna-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luna Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Luna Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		DAFCA2E52B3BB7E9004E5F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luna.Luna-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Luna Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DAFCA2E62B3BB7E9004E5F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luna.Luna-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Luna Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAFCA2AB2B3BB7E7004E5F60 /* Build configuration list for PBXProject "Luna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFCA2D82B3BB7E9004E5F60 /* Debug */,
+				DAFCA2D92B3BB7E9004E5F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFCA2DA2B3BB7E9004E5F60 /* Build configuration list for PBXNativeTarget "Luna Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFCA2DB2B3BB7E9004E5F60 /* Debug */,
+				DAFCA2DC2B3BB7E9004E5F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFCA2DE2B3BB7E9004E5F60 /* Build configuration list for PBXNativeTarget "Luna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFCA2DF2B3BB7E9004E5F60 /* Debug */,
+				DAFCA2E02B3BB7E9004E5F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFCA2E12B3BB7E9004E5F60 /* Build configuration list for PBXNativeTarget "Luna Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFCA2E22B3BB7E9004E5F60 /* Debug */,
+				DAFCA2E32B3BB7E9004E5F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFCA2E42B3BB7E9004E5F60 /* Build configuration list for PBXNativeTarget "Luna Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFCA2E52B3BB7E9004E5F60 /* Debug */,
+				DAFCA2E62B3BB7E9004E5F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAFCA2A82B3BB7E7004E5F60 /* Project object */;
+}
